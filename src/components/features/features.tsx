@@ -1,4 +1,5 @@
 import { FeatureWrapper } from "./feature-wrapper";
+import { MainFeatures } from "./main-features";
 import { PostContent } from "./post-content";
 
 
@@ -120,6 +121,7 @@ export const Features = () => {
                 />
 
             </div>
+            <MainFeatures />
         </div>
     );
 }
